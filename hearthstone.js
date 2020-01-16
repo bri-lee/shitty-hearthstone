@@ -62,7 +62,7 @@ class Game {
           ${playerOne.deck.cards.slice(0, 3).map(card => card.render())}
         </div>
         <div class='character'>
-          <img class='avatar' src='https://placekitten.com/200/300' />
+          <img class='avatar' src='lulu.png' />
           <p class='life'>${playerOne.life}</p>
         </div>
         <div class='field'>field</div>
@@ -70,7 +70,7 @@ class Game {
       <div id='bottom'>
         <div class='field'>field</div>
         <div class='character'>
-          <img class='avatar' src='https://placekitten.com/200/299' />
+          <img class='avatar' src='sona.png' />
           <p class='life'>${playerTwo.life}</p>
         </div>
         <div class='hand'>
